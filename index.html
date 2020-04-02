@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laboe is' fällich!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script type="text/javascript" src="lib/HexagonTools.js"></script>
+        <script type="text/javascript" src="lib/Grid.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="resources/base.css">
+    </head>
+    <body>
+        <div id='wrapper'>
+            <!-- Borders for gang territories -->
+            <canvas id ="AreaCanvas"></canvas>
+             <!-- Temporary selections. For inspecting hexagons and fighting -->
+            <canvas id ="BuildingCanvas"></canvas>
+            <canvas id ="SelectionCanvas"></canvas>
+             <!-- Even more temporary Selections, that change with mouse movement -->
+            <canvas id ="FGCanvas"></canvas>
+             <!-- Toolbox -->
+            <canvas id ="ToolboxCanvas" width='200' height='550'></canvas>
+       </div>
+        <span id="fps"> FPS: ??? </span></br>
+        <span id="date"> Date: ??? </span>
+        <script type="text/javascript" src="js/preload.js"></script>
+        <script type="text/javascript" src="js/canvas.js"></script>
+        <script type="text/javascript" src="js/events.js"></script>
+        <script type="text/javascript" src="js/update.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
